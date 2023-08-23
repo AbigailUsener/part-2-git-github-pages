@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <table table-size="600" cellspacing="0" cellpadding="10" border="3" bgcolor="white" align="center" width="900" hight="500">
+            <tr>
+                <td>
+                    <table class="bordered-table" border="4" align="center" >
+                        <thead>
+                            <th scope="col" colspan="2" style="color:red; font-size:50px" bgcolor="yellow">Registration Form</th>
+                        </thead>
+                        
+                        <tr bgcolor="sky blue">
+                            <td>Enter Name</td>
+                            <td><input type="text" name="name" size="15" maxlength="30"></td>
+                        <tr bgcolor="sky blue">
+                            <td>Enter Password</td>
+                            <td><input type="text" name="password" size="15" maxlength="30"></td>
+                        <tr bgcolor="sky blue">
+                            <td>Enter Address</td>
+                            <td><textarea name="address" cols="20" rows="4"></textarea></td>
+                        <tr bgcolor="sky blue">
+                            <td>Select Game</td>
+                            <td><br><input type="checkbox" name="Hockey" value="Hockey" checked="checked">Hockey
+                            <br><input type="checkbox" name="Football" value="Football" checked="checked">Football
+                            <br><input type="checkbox" name="Badminton" value="badminton" checked="checked">Badminton
+                            <br><input type="checkbox" name="cricket" value="cricket" checked="checked">Cricket
+                            <br><input type="checkbox" name="volleyball" value="volleyball" checked="checked">Volleyball</td>
+                        <tr bgcolor="sky blue">
+                            <td>Gender</td>
+                            <td><br><input type="radio" name="gender" value="gender" checked="checked">Male
+                            <input type="radio" name="gender" value="gender" checked="checked">Female</td>
+                        <tr bgcolor="sky blue">
+                            <td>Select Age</td>
+                            <td><select name="age"> <option value="5-10">5-10</option><option value="10-15">10-15</option><option value="15-20">15-20</option></select></td>
+                        <tr bgcolor="sky blue">
+                            <td>Select Photo</td>
+                            <td><input type="file" name="picture">
+                            <input type="submit" value="upload"></td>
+                        </tr>
+                        <tfoot><td bgcolor="sky blue" colspan="2" align="center"><input type="submit" value="Submit"><input type="submit" value="Click Me"><input type="submit" value="Reset"></td></tfoot>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
